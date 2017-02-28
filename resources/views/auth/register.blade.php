@@ -59,6 +59,15 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                             </div>
                         </div>
+                    <div class="form-group">
+                         <label for="role" class="col-md-4 control-label" ></label>
+
+                      <div class="col-md-6" >
+
+                        <input type= "radio"  name="role" value="1" required> Chercheur d'emploi
+                        <input type= "radio"  name="role" value="3" required> Employeur
+                    </div>
+                    </div>
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
